@@ -1,537 +1,532 @@
-// translations.js - Complete translations with improved competitive positioning
+// /src/utils/translations.js
+
 export const translations = {
   en: {
     nav: {
       home: "Home",
-      problems: "Market Problems", 
+      problems: "The Challenge",
       product: "Our Solution",
       features: "Features",
-      advantages: "Advantages",
+      advantages: "Our Edge",
       pricing: "Investment"
     },
     hero: {
-      title: "Revolutionary Energy Storage with Second-Life EV Batteries",
-      subtitle: "Join Portugal's energy revolution with PortEV's intelligent battery systems. Cut electricity costs by 50%, achieve energy independence, and help build a sustainable future.",
-      imageAlt: "PortEV Smart Energy Storage System"
+      title: "Unlock Energy Independence with Second-Life Batteries",
+      subtitle: "Join Portugal's energy revolution. PortEV's intelligent systems can cut electricity costs by over 50%, secure your power supply, and build a sustainable future.",
+      imageAlt: "A sleek PortEV Smart Energy Storage System installed in a modern home."
     },
     problems: {
-      title: "Energy Challenges We Solve",
-      subtitle: "Portuguese households and businesses face rising energy costs and grid instability. PortEV provides the solution.",
+      title: "The Energy Challenges You Face",
+      subtitle: "Portuguese households and businesses face rising energy costs and grid instability. PortEV is engineered to solve these problems.",
       challenge1: {
         title: "Skyrocketing Electricity Bills",
-        description: "Portuguese energy costs surged over 200% in 2022, with prices hitting 283€/MWh. Traditional solutions offer no relief from volatile pricing that continues to impact your budget every month."
+        description: "Energy costs have surged, with volatile pricing impacting your budget every month. Traditional solutions offer no protection."
       },
       challenge2: {
         title: "Grid Reliability Issues",
-        description: "Despite 71% renewable energy, Portugal's grid faces increasing instability from intermittent sources. Power outages cost businesses thousands and leave households vulnerable without backup solutions."
+        description: "Power outages cost businesses thousands and leave households vulnerable. Grid instability is a growing concern, even with high renewable energy input."
       },
       challenge3: {
-        title: "Wasted Peak Hour Pricing",
-        description: "You're forced to pay premium rates during peak consumption hours with no way to optimize timing. This inefficiency adds hundreds to your annual electricity bills unnecessarily."
+        title: "Forced Peak Hour Pricing",
+        description: "You're forced to pay premium rates during peak hours with no way to optimize. This inefficiency adds hundreds to your annual bills."
       },
       challenge4: {
         title: "Complete Grid Dependence",
-        description: "Without energy storage, you remain 100% dependent on grid pricing and availability. This leaves you powerless against outages and price fluctuations beyond your control."
+        description: "Without storage, you remain 100% dependent on grid pricing and availability, leaving you powerless against fluctuations and outages."
       },
       challenge5: {
         title: "Environmental Waste",
-        description: "Millions of functional EV batteries are discarded while households rely on polluting diesel generators. This waste contradicts Portugal's sustainability leadership and your environmental values."
+        description: "Millions of EV batteries with years of life left are discarded, while polluting diesel generators are used for backup. This contradicts Portugal's sustainability goals."
       },
       challenge6: {
         title: "Missed Savings Opportunities",
-        description: "Every day, electricity prices fluctuate dramatically between off-peak and peak hours. Without storage, you can't capitalize on cheap overnight rates to reduce your daytime costs."
+        description: "Electricity prices fluctuate dramatically. Without storage, you can't capitalize on cheap overnight energy to slash your daytime costs."
       }
     },
     product: {
-      title: "PortEV: The Complete Energy Independence Solution",
-      subtitle: "Europe's most advanced second-life battery system, engineered specifically for Portuguese energy conditions",
-      description: "PortEV transforms premium EV batteries into intelligent energy ecosystems. Our Portuguese-engineered solution combines cutting-edge AI with proven European technology, delivering unmatched performance at revolutionary prices. Every system includes premium components, expert installation, and comprehensive local support.",
+      title: "PortEV: Your Complete Energy Solution",
+      subtitle: "Europe's most advanced second-life battery system, engineered in Portugal for local conditions.",
+      description: "PortEV transforms premium EV batteries from brands like Tesla and BMW into intelligent energy ecosystems. Our solution combines cutting-edge AI with proven European technology, delivering unmatched performance at a revolutionary price. Every system includes premium components, expert installation, and comprehensive local support.",
       components: {
-        title: "Premium System Components",
+        title: "Inside Every PortEV System",
         battery: {
           title: "Premium Second-Life EV Batteries",
-          description: "Carefully selected Tesla, BMW, and Mercedes batteries maintaining 70-80% capacity - proven technology at 60% less cost than new alternatives"
+          description: "Select batteries maintaining over 80% capacity. Proven technology at a fraction of the cost of new alternatives."
         },
         bms: {
-          title: "Military-Grade Battery Management",
-          description: "Advanced European BMS technology with 24/7 monitoring, automatic balancing, and safety protocols exceeding all Portuguese electrical standards"
+          title: "Advanced Battery Management (BMS)",
+          description: "European-grade BMS with 24/7 cell monitoring, automatic balancing, and safety protocols that exceed all Portuguese standards."
         },
         ai: {
-          title: "Proprietary AI Optimization Engine",
-          description: "Our exclusive algorithms learn your energy patterns, predict Portuguese grid pricing, and automatically maximize your savings every single day"
+          title: "Proprietary AI Optimization",
+          description: "Our exclusive algorithms learn your energy use, predict grid pricing, and automatically maximize your savings every day."
         },
         inverter: {
           title: "Ultra-Efficient German Inverters",
-          description: "Premium Fronius and SMA inverters with 97%+ efficiency - the same technology powering Germany's renewable energy leadership"
+          description: "Premium Fronius & SMA inverters with 97%+ efficiency, powering Germany's renewable energy leadership."
         },
         monitoring: {
           title: "Intelligent Control Dashboard",
-          description: "Real-time monitoring via smartphone app showing live savings, energy flow, and system performance with Portuguese language support"
+          description: "A user-friendly app for real-time monitoring of savings, energy flow, and system performance, with full Portuguese support."
         },
         converters: {
-          title: "Industrial Power Electronics",
-          description: "Hospital-grade power conditioning ensuring clean, stable energy delivery that actually improves your electrical system's reliability"
+          title: "Industrial-Grade Power Electronics",
+          description: "Hospital-grade power conditioning ensures clean, stable energy that improves your entire electrical system's reliability."
         }
       }
     },
     features: {
-      title: "Proven Results for Portuguese Customers",
-      subtitle: "Choose your situation to see real savings achieved by our customers",
+      title: "Proven Results for Our Customers",
+      subtitle: "Select your profile to see the real-world benefits and savings achieved in Portugal.",
       targetSelector: {
-        residential: "Homes & Families",
-        commercial: "Businesses & Industry"
+        residential: "For Homes",
+        commercial: "For Business"
       },
       residential: {
         backup: {
-          title: "Never Lose Power Again",
-          description: "Instant backup power keeps your family safe and comfortable during outages. No noise, no fuel, no maintenance - just reliable electricity when you need it most.",
-          savings: "Customers avoid €300-800 losses per outage from spoiled food and lost productivity"
+          title: "Uninterruptible Power Supply",
+          description: "Instant backup power keeps your family safe and comfortable during outages. No noise, no fuel, no fuss—just reliable electricity.",
+          savings: "Avoid €300+ in losses per outage"
         },
         arbitrage: {
-          title: "Automatic Bill Reduction",
-          description: "Your system automatically buys electricity when it's cheapest (overnight) and powers your home during expensive peak hours. It works while you sleep.",
-          savings: "Average customers save €800-2,400 annually on electricity bills"
+          title: "Automated Bill Reduction",
+          description: "The system automatically charges with cheap overnight electricity and powers your home during expensive peak hours. It works while you sleep.",
+          savings: "Typical savings of €800-2,400 annually"
         },
         peakShaving: {
           title: "Eliminate Peak Charges",
-          description: "Reduce your maximum power draw from the grid, permanently lowering your electricity tariff category and monthly connection fees.",
-          savings: "Customers reduce peak demand costs by €200-500 annually"
+          description: "Lower your maximum power draw from the grid, which can help reduce your fixed tariff category and monthly fees.",
+          savings: "Reduce peak demand costs by €200-500 annually"
         },
         solarOptimization: {
-          title: "Maximize Solar Investment",
-          description: "Store excess solar energy instead of selling it back cheaply. Use your own clean energy when the sun isn't shining for maximum financial return.",
-          savings: "Solar customers increase their ROI by 40-60% with storage"
+          title: "Maximize Your Solar Investment",
+          description: "Store 100% of your excess solar energy instead of selling it for cents. Use your own clean energy 24/7 for maximum financial return.",
+          savings: "Increase solar ROI by up to 60%"
         },
         evCharging: {
-          title: "Free EV Charging",
-          description: "Charge your electric vehicle with stored renewable energy or use your car as a backup power source for your home during emergencies.",
-          savings: "EV owners save €600-1,200 annually on charging costs"
+          title: "Smarter EV Charging",
+          description: "Charge your electric vehicle with stored off-peak or solar energy, effectively making your daily commute free.",
+          savings: "Save up to €1,200 annually on charging"
         },
         independence: {
           title: "True Energy Freedom",
-          description: "Reduce grid dependence to less than 20% with intelligent energy management. Take control of your energy costs and environmental impact.",
-          savings: "Customers achieve 60-85% energy independence within first year"
+          description: "Dramatically reduce your grid dependence. Take control of your energy costs and your environmental impact.",
+          savings: "Achieve 60-85% energy self-sufficiency"
         }
       },
       commercial: {
         backup: {
           title: "Zero-Downtime Operations",
-          description: "Seamless backup power protects revenue, data, and operations. Your business continues running while competitors shut down during outages.",
-          savings: "Businesses avoid €15,000-100,000+ in downtime costs per major outage"
+          description: "Seamless backup power protects your revenue, data, and critical operations. Keep your business running while competitors are down.",
+          savings: "Avoid €15,000+ in downtime costs per outage"
         },
         demandCharges: {
           title: "Slash Demand Charges",
-          description: "Dramatically reduce monthly demand peaks with smart energy discharge. Lower your electricity tariff permanently while maintaining full operational capacity.",
-          savings: "Commercial customers reduce total electricity costs by 25-45%"
+          description: "Dramatically reduce monthly demand peaks with smart energy discharge. Lower your electricity tariff permanently.",
+          savings: "Reduce total electricity costs by 25-45%"
         },
         loadShifting: {
-          title: "Smart Energy Timing",
-          description: "Automatically shift energy-intensive processes to off-peak hours when electricity is cheapest. Optimize operations without changing workflows.",
-          savings: "Manufacturers save €8,000-35,000 annually through intelligent load management"
+          title: "Intelligent Load Shifting",
+          description: "Automatically shift energy-intensive processes to off-peak hours when electricity is cheapest, without changing your workflow.",
+          savings: "Manufacturers can save €8,000+ annually"
         },
         gridServices: {
-          title: "Generate Additional Revenue",
-          description: "Participate in Portuguese grid balancing markets and frequency regulation services. Your storage system becomes a profit center, not just a cost saver.",
-          savings: "Grid service participants earn €3,000-12,000 annually in additional revenue"
+          title: "Generate New Revenue",
+          description: "Participate in Portuguese grid balancing markets. Your storage system can become a profit center, not just a cost saver.",
+          savings: "Earn €3,000+ annually from grid services"
         },
         sustainability: {
-          title: "Lead Sustainability Goals",
-          description: "Achieve corporate ESG targets while dramatically reducing operational costs. Demonstrate environmental leadership with measurable carbon footprint reduction.",
-          savings: "Companies improve ESG ratings and reduce carbon emissions by 40-60%"
+          title: "Achieve ESG Goals",
+          description: "Meet corporate Environmental, Social, and Governance targets while reducing operational costs. Demonstrate measurable leadership.",
+          savings: "Improve ESG ratings & cut carbon emissions"
         },
         scalability: {
           title: "Future-Proof Investment",
-          description: "Modular design grows with your business. Add capacity incrementally as needs increase without replacing existing infrastructure.",
-          savings: "Scalable solution protects investment value and adapts to changing energy needs"
+          description: "Our modular design grows with your business. Add capacity as your needs increase without replacing your initial investment.",
+          savings: "A scalable solution that adapts and protects value"
         }
       }
     },
     advantages: {
-      title: "Why PortEV Leads the Portuguese Market",
-      subtitle: "Proven advantages that deliver superior results for our customers",
+      title: "The PortEV Advantage",
+      subtitle: "Our unique approach delivers superior results and value for our customers.",
       cost: {
-        title: "Unbeatable Value Engineering",
-        description: "Second-life EV batteries deliver 90% of new battery performance at 40% of the cost. Our Portuguese engineering and European sourcing eliminates middleman markups while maintaining premium quality."
+        title: "Superior Value & Engineering",
+        description: "Second-life batteries provide over 80% of new performance at a fraction of the cost. Our direct sourcing and local engineering eliminate middleman markups."
       },
       ai: {
-        title: "Exclusive AI Advantage",
-        description: "Our proprietary machine learning algorithms are trained specifically on Portuguese energy patterns, weather data, and grid pricing to optimize YOUR specific savings potential daily."
+        title: "Smarter AI, Bigger Savings",
+        description: "Our proprietary AI is trained specifically on Portuguese grid data and weather patterns to maximize your savings. It's an advantage no competitor can offer."
       },
       integration: {
-        title: "Seamless Portuguese Integration",
-        description: "Designed for Portuguese homes and businesses. Compatible with local solar installations, electrical standards, and energy providers. Professional installation with minimal disruption."
+        title: "Seamless Local Integration",
+        description: "Designed for Portuguese homes and businesses. Fully compatible with local electrical standards and energy providers, installed by certified professionals."
       },
       sustainability: {
-        title: "Circular Economy Leadership",
-        description: "Every PortEV system prevents premature battery recycling and reduces environmental waste. Join Portugal's circular economy while saving money - the perfect combination."
+        title: "Circular Economy in Action",
+        description: "Every PortEV system gives a high-performance battery a second life, directly contributing to Portugal's circular economy and reducing waste."
       },
       support: {
-        title: "Local Portuguese Excellence",
-        description: "Full Portuguese support team, local installation network, and comprehensive warranty. We understand Portuguese regulations, incentives, and energy market conditions better than any competitor."
+        title: "Dedicated Portuguese Support",
+        description: "A full support team based in Portugal. We understand the local regulations, incentives, and energy market better than anyone."
       },
       proven: {
         title: "European-Proven Technology",
-        description: "Based on successful implementations across Germany, Netherlands, and UK. Now optimized for Portuguese conditions with over 500 successful installations and growing."
+        description: "Our system architecture is based on successful large-scale projects across Germany and the UK, now optimized for the Portuguese market."
       }
     },
     pricing: {
-      title: "Smart Investment, Guaranteed Returns",
-      subtitle: "PortEV delivers the best value in Portuguese energy storage - with results that speak for themselves",
-      ourSolution: "Best Value Solution",
+      title: "A Smart Investment in Your Future",
+      subtitle: "PortEV delivers the best value in Portuguese energy storage, designed for a rapid return.",
+      ourSolution: "Best Value",
       comparison: {
         portev: {
           title: "PortEV Complete System",
-          price: "€2,500 - €3,500",
-          capacity: "10-20 kWh",
-          features: [
-            "✅ Premium second-life EV batteries",
-            "✅ Military-grade BMS included",
-            "✅ Exclusive AI optimization engine",
-            "✅ Professional installation & setup",
-            "✅ Comprehensive 10-year warranty",
-            "✅ 24/7 Portuguese customer support",
-            "✅ Mobile app with real-time monitoring",
-            "✅ Guaranteed ROI in 3-4 years"
-          ]
+          price: "Starting from €2,999",
+          capacity: "10-20 kWh Models",
+          check: [
+            "Premium Second-Life Batteries",
+            "Advanced AI Optimization Engine",
+            "Professional Installation Included",
+            "Comprehensive 10-Year Warranty",
+            "24/7 Portuguese Support",
+            "Real-Time Monitoring App"
+          ],
+          cross: []
         },
         tesla: {
-          title: "Tesla Powerwall 3",
-          price: "€12,000 - €15,000",
+          title: "Tesla Powerwall",
+          price: "€12,000+",
           capacity: "13.5 kWh",
-          features: [
-            "⚠️ 4x higher upfront cost",
-            "⚠️ Basic monitoring only",
-            "⚠️ Limited local support",
-            "⚠️ Installation costs extra",
-            "⚠️ 8-10 year payback period"
+          check: ["New Battery"],
+          cross: [
+            "4x Higher Upfront Cost",
+            "No Advanced AI Optimization",
+            "Installation Costs Extra",
+            "Longer Payback Period (8-10 yrs)"
           ]
         },
         sonnen: {
-          title: "Sonnen ecoLinx",
-          price: "€25,000 - €35,000",
-          capacity: "20 kWh",
-          features: [
-            "❌ Extremely high cost",
-            "❌ Complex installation required",
-            "❌ Limited Portuguese support",
-            "❌ 12-15 year payback period",
-            "❌ Expensive maintenance contracts"
+          title: "Sonnen Batteries",
+          price: "€25,000+",
+          capacity: "10-20 kWh",
+          check: ["New Battery"],
+          cross: [
+            "Extremely High Cost",
+            "Complex Installation",
+            "Limited Local Support",
+            "Longest Payback Period (12+ yrs)"
           ]
         },
         diesel: {
           title: "Diesel Generator",
-          price: "€4,000 - €10,000",
-          capacity: "Variable",
-          features: [
-            "❌ Backup power only - no savings",
-            "❌ High ongoing fuel costs",
-            "❌ Regular maintenance required",
-            "❌ Noise and air pollution",
-            "❌ No smart grid integration"
+          price: "€4,000+",
+          capacity: "Backup Only",
+          check: ["Backup Power Source"],
+          cross: [
+            "No Daily Energy Savings",
+            "High Fuel & Maintenance Costs",
+            "Noise and Air Pollution",
+            "No Smart Grid Integration"
           ]
         }
       },
       savings: {
-        title: "Real Customer Results",
-        description: "Actual savings achieved by PortEV customers in Portugal:",
+        title: "Typical Customer Results",
+        description: "Actual savings and earnings achieved by PortEV customers in Portugal:",
         residential: [
           "€800-2,400 saved annually on electricity bills",
-          "€300-800 avoided per outage in spoiled food and losses",
-          "€600-1,200 saved on EV charging costs annually",
+          "€600-1,200 saved on EV charging costs",
           "40-60% improvement in solar panel ROI"
         ],
         commercial: [
-          "€8,000-35,000 saved annually on energy costs",
-          "€15,000-100,000+ avoided in downtime costs per outage",
-          "€3,000-12,000 earned from grid services annually",
-          "25-45% total reduction in electricity expenses"
+          "25-45% total reduction in electricity expenses",
+          "€15,000+ avoided in downtime costs per outage",
+          "€3,000+ earned from grid services annually"
         ]
       },
       payback: {
-        title: "Guaranteed Return on Investment",
-        residential: "2.5-4 years typical payback",
-        commercial: "1.5-3 years typical payback", 
-        description: "Our systems pay for themselves through proven energy savings, backup power value, and potential grid revenue. We guarantee positive ROI or your money back."
+        title: "Designed for Rapid ROI",
+        residential: "Projected: 2.5-4 years",
+        commercial: "Projected: 1.5-3 years",
+        description: "Our systems are engineered to pay for themselves quickly through proven energy savings, backup security, and potential grid revenue."
       }
     },
     cta: {
-      title: "Join Portugal's Energy Revolution Today",
-      subtitle: "Over 500 Portuguese families and businesses have already made the switch to PortEV",
-      description: "Don't wait for electricity prices to rise further. Get your free energy assessment and custom PortEV quote today. Our Portuguese energy experts will design the perfect solution for your specific needs and budget.",
-      button: "Get Your Free Assessment",
-      instagram: "Follow @PortEV_Portugal"
+      title: "Ready to Control Your Energy Costs?",
+      subtitle: "Join over 500 Portuguese families and businesses who have made the switch to PortEV.",
+      description: "Get a free, no-obligation energy assessment and a custom quote from our experts. Discover how much you can save and declare your energy independence.",
+      button: "Request My Free Assessment",
+      instagram: "Follow our journey @PortEV_Portugal"
     },
     footer: {
-      slogan: "Leading Portugal's transition to intelligent, sustainable energy storage solutions",
-      rights: "© 2024 PortEV Portugal. All rights reserved.",
-      madein: "Engineered in Portugal 🇵🇹 with European Excellence"
+      slogan: "Leading Portugal's transition to intelligent, sustainable energy.",
+      rights: `© ${new Date().getFullYear()} PortEV Portugal. All rights reserved.`,
+      madein: "Engineered in Portugal 🇵🇹"
     }
   },
   pt: {
     nav: {
       home: "Início",
-      problems: "Problemas do Mercado",
-      product: "Nossa Solução", 
-      features: "Características",
+      problems: "O Desafio",
+      product: "A Solução",
+      features: "Funcionalidades",
       advantages: "Vantagens",
       pricing: "Investimento"
     },
     hero: {
-      title: "Armazenamento de Energia Revolucionário com Baterias de Segunda Vida",
-      subtitle: "Junte-se à revolução energética portuguesa com os sistemas inteligentes da PortEV. Reduza custos de eletricidade em 50%, alcance independência energética e ajude a construir um futuro sustentável.",
-      imageAlt: "Sistema de Armazenamento Inteligente PortEV"
+      title: "Conquiste a Independência Energética com Baterias de Segunda Vida",
+      subtitle: "Junte-se à revolução energética de Portugal. Os sistemas inteligentes da PortEV podem reduzir os custos de eletricidade em mais de 50%, garantir o seu fornecimento de energia e construir um futuro sustentável.",
+      imageAlt: "Um elegante sistema de armazenamento de energia inteligente PortEV instalado numa casa moderna."
     },
     problems: {
-      title: "Desafios Energéticos que Resolvemos",
-      subtitle: "Famílias e empresas portuguesas enfrentam custos energéticos crescentes e instabilidade da rede. A PortEV oferece a solução.",
-      challenge1: {
-        title: "Contas de Eletricidade Disparadas",
-        description: "Os custos energéticos portugueses subiram mais de 200% em 2022, atingindo 283€/MWh. Soluções tradicionais não oferecem alívio da volatilidade de preços que continua a impactar o seu orçamento mensalmente."
-      },
-      challenge2: {
-        title: "Problemas de Fiabilidade da Rede",
-        description: "Apesar de 71% de energia renovável, a rede portuguesa enfrenta instabilidade crescente de fontes intermitentes. Falhas de energia custam milhares às empresas e deixam famílias vulneráveis sem soluções de backup."
-      },
-      challenge3: {
-        title: "Desperdício nos Preços de Pico",
-        description: "É forçado a pagar tarifas premium durante horas de consumo de pico sem forma de otimizar o timing. Esta ineficiência adiciona centenas às suas contas anuais desnecessariamente."
-      },
-      challenge4: {
-        title: "Dependência Completa da Rede",
-        description: "Sem armazenamento de energia, permanece 100% dependente dos preços e disponibilidade da rede. Isto deixa-o impotente contra falhas e flutuações de preços fora do seu controlo."
-      },
-      challenge5: {
-        title: "Desperdício Ambiental",
-        description: "Milhões de baterias de VE funcionais são descartadas enquanto famílias dependem de geradores diesel poluentes. Este desperdício contradiz a liderança sustentável de Portugal e os seus valores ambientais."
-      },
-      challenge6: {
-        title: "Oportunidades de Poupança Perdidas",
-        description: "Todos os dias, os preços da eletricidade flutuam dramaticamente entre horas fora de pico e pico. Sem armazenamento, não consegue capitalizar tarifas noturnas baratas para reduzir custos diurnos."
-      }
+        title: "Os Desafios Energéticos que Enfrenta",
+        subtitle: "Famílias e empresas portuguesas enfrentam custos de energia crescentes e instabilidade da rede. A PortEV foi concebida para resolver estes problemas.",
+        challenge1: {
+            title: "Contas de Eletricidade Exorbitantes",
+            description: "Os custos de energia dispararam, com preços voláteis a impactar o seu orçamento todos os meses. As soluções tradicionais não oferecem proteção."
+        },
+        challenge2: {
+            title: "Problemas de Fiabilidade da Rede",
+            description: "As falhas de energia custam milhares às empresas e deixam as famílias vulneráveis. A instabilidade da rede é uma preocupação crescente, mesmo com um elevado contributo de energias renováveis."
+        },
+        challenge3: {
+            title: "Preços de Ponta Forçados",
+            description: "É forçado a pagar tarifas premium durante as horas de pico, sem forma de otimizar. Esta ineficiência adiciona centenas de euros às suas faturas anuais."
+        },
+        challenge4: {
+            title: "Dependência Total da Rede",
+            description: "Sem armazenamento, permanece 100% dependente dos preços e da disponibilidade da rede, ficando impotente perante flutuações e falhas."
+        },
+        challenge5: {
+            title: "Desperdício Ambiental",
+            description: "Milhões de baterias de VE com anos de vida útil são descartadas, enquanto se utilizam geradores a diesel poluentes para backup. Isto contradiz os objetivos de sustentabilidade de Portugal."
+        },
+        challenge6: {
+            title: "Oportunidades de Poupança Perdidas",
+            description: "Os preços da eletricidade flutuam drasticamente. Sem armazenamento, não pode capitalizar a energia barata da noite para reduzir drasticamente os custos durante o dia."
+        }
     },
     product: {
-      title: "PortEV: A Solução Completa de Independência Energética",
-      subtitle: "O sistema de baterias de segunda vida mais avançado da Europa, desenvolvido especificamente para condições energéticas portuguesas",
-      description: "A PortEV transforma baterias premium de VE em ecossistemas energéticos inteligentes. A nossa solução desenvolvida em Portugal combina IA de ponta com tecnologia europeia comprovada, oferecendo desempenho incomparável a preços revolucionários. Cada sistema inclui componentes premium, instalação especializada e suporte local abrangente.",
-      components: {
-        title: "Componentes Premium do Sistema",
-        battery: {
-          title: "Baterias Premium de VE de Segunda Vida",
-          description: "Baterias Tesla, BMW e Mercedes cuidadosamente selecionadas mantendo 70-80% da capacidade - tecnologia comprovada a 60% menos custo que alternativas novas"
-        },
-        bms: {
-          title: "Gestão de Baterias de Grau Militar",
-          description: "Tecnologia BMS europeia avançada com monitorização 24/7, balanceamento automático e protocolos de segurança excedendo todos os padrões elétricos portugueses"
-        },
-        ai: {
-          title: "Motor de Otimização IA Proprietário",
-          description: "Os nossos algoritmos exclusivos aprendem os seus padrões energéticos, preveem preços da rede portuguesa e maximizam automaticamente as suas poupanças todos os dias"
-        },
-        inverter: {
-          title: "Inversores Alemães Ultra-Eficientes",
-          description: "Inversores premium Fronius e SMA com 97%+ eficiência - a mesma tecnologia que alimenta a liderança em energia renovável da Alemanha"
-        },
-        monitoring: {
-          title: "Painel de Controlo Inteligente",
-          description: "Monitorização em tempo real via app smartphone mostrando poupanças ao vivo, fluxo de energia e desempenho do sistema com suporte em português"
-        },
-        converters: {
-          title: "Eletrónica de Potência Industrial",
-          description: "Condicionamento de energia de grau hospitalar garantindo fornecimento de energia limpa e estável que realmente melhora a fiabilidade do seu sistema elétrico"
+        title: "PortEV: A Sua Solução Completa de Energia",
+        subtitle: "O sistema de baterias de segunda vida mais avançado da Europa, desenvolvido em Portugal para as condições locais.",
+        description: "A PortEV transforma baterias premium de VEs de marcas como Tesla e BMW em ecossistemas de energia inteligentes. A nossa solução combina IA de ponta com tecnologia europeia comprovada, oferecendo um desempenho incomparável a um preço revolucionário. Cada sistema inclui componentes premium, instalação por especialistas e um suporte local abrangente.",
+        components: {
+            title: "Dentro de Cada Sistema PortEV",
+            battery: {
+                title: "Baterias Premium de Segunda Vida de VE",
+                description: "Baterias selecionadas que mantêm mais de 80% da sua capacidade. Tecnologia comprovada por uma fração do custo de alternativas novas."
+            },
+            bms: {
+                title: "Gestão Avançada de Bateria (BMS)",
+                description: "BMS de nível europeu com monitorização de células 24/7, balanceamento automático e protocolos de segurança que excedem todas as normas portuguesas."
+            },
+            ai: {
+                title: "Otimização por IA Proprietária",
+                description: "Os nossos algoritmos exclusivos aprendem o seu consumo de energia, preveem os preços da rede e maximizam automaticamente as suas poupanças todos os dias."
+            },
+            inverter: {
+                title: "Inversores Alemães de Alta Eficiência",
+                description: "Inversores premium da Fronius & SMA com mais de 97% de eficiência, que potenciam a liderança da Alemanha em energias renováveis."
+            },
+            monitoring: {
+                title: "Painel de Controlo Inteligente",
+                description: "Uma aplicação intuitiva para monitorização em tempo real das poupanças, fluxo de energia e desempenho do sistema, com suporte total em português."
+            },
+            converters: {
+                title: "Eletrónica de Potência de Nível Industrial",
+                description: "Condicionamento de energia de nível hospitalar que garante energia limpa e estável, melhorando a fiabilidade de todo o seu sistema elétrico."
+            }
         }
-      }
     },
     features: {
-      title: "Resultados Comprovados para Clientes Portugueses",
-      subtitle: "Escolha a sua situação para ver poupanças reais alcançadas pelos nossos clientes",
-      targetSelector: {
-        residential: "Casas e Famílias",
-        commercial: "Empresas e Indústria"
-      },
-      residential: {
-        backup: {
-          title: "Nunca Mais Perca Energia",
-          description: "Energia de backup instantânea mantém a sua família segura e confortável durante falhas. Sem ruído, sem combustível, sem manutenção - apenas eletricidade fiável quando mais precisa.",
-          savings: "Clientes evitam €300-800 de perdas por falha em comida estragada e produtividade perdida"
+        title: "Resultados Comprovados para os Nossos Clientes",
+        subtitle: "Selecione o seu perfil para ver os benefícios e as poupanças reais alcançadas em Portugal.",
+        targetSelector: {
+            residential: "Para Casas",
+            commercial: "Para Empresas"
         },
-        arbitrage: {
-          title: "Redução Automática de Contas",
-          description: "O seu sistema compra automaticamente eletricidade quando está mais barata (durante a noite) e alimenta a sua casa durante horas caras de pico. Funciona enquanto dorme.",
-          savings: "Clientes médios poupam €800-2,400 anualmente nas contas de eletricidade"
+        residential: {
+            backup: {
+                title: "Fornecimento de Energia Ininterrupto",
+                description: "Energia de backup instantânea mantém a sua família segura e confortável durante as falhas. Sem ruído, sem combustível, sem complicações — apenas eletricidade fiável.",
+                savings: "Evite perdas de mais de 300 € por falha"
+            },
+            arbitrage: {
+                title: "Redução Automática da Fatura",
+                description: "O sistema carrega automaticamente com eletricidade barata durante a noite e alimenta a sua casa durante as horas de pico, mais caras.",
+                savings: "Poupança típica de 800-2,400 € anualmente"
+            },
+            peakShaving: {
+                title: "Elimine as Taxas de Ponta",
+                description: "Reduza o seu consumo máximo da rede, o que pode ajudar a diminuir a sua categoria tarifária fixa e as taxas mensais.",
+                savings: "Reduza os custos de procura de ponta em 200-500 € anualmente"
+            },
+            solarOptimization: {
+                title: "Maximize o Seu Investimento Solar",
+                description: "Armazene 100% da sua energia solar excedente em vez de a vender por cêntimos. Use a sua própria energia limpa 24/7 para o máximo retorno financeiro.",
+                savings: "Aumente o ROI solar em até 60%"
+            },
+            evCharging: {
+                title: "Carregamento de VE Mais Inteligente",
+                description: "Carregue o seu veículo elétrico com energia armazenada fora do pico ou solar, tornando as suas deslocações diárias efetivamente gratuitas.",
+                savings: "Poupe até 1,200 € anualmente no carregamento"
+            },
+            independence: {
+                title: "Verdadeira Liberdade Energética",
+                description: "Reduza drasticamente a sua dependência da rede. Assuma o controlo dos seus custos de energia e do seu impacto ambiental.",
+                savings: "Alcance 60-85% de autossuficiência energética"
+            }
         },
-        peakShaving: {
-          title: "Elimine Taxas de Pico",
-          description: "Reduza o seu consumo máximo de energia da rede, baixando permanentemente a sua categoria tarifária e taxas mensais de ligação.",
-          savings: "Clientes reduzem custos de procura de pico em €200-500 anualmente"
-        },
-        solarOptimization: {
-          title: "Maximize Investimento Solar",
-          description: "Armazene energia solar excedente em vez de vendê-la barato. Use a sua própria energia limpa quando o sol não brilha para máximo retorno financeiro.",
-          savings: "Clientes solares aumentam o seu ROI em 40-60% com armazenamento"
-        },
-        evCharging: {
-          title: "Carregamento VE Gratuito",
-          description: "Carregue o seu veículo elétrico com energia renovável armazenada ou use o seu carro como fonte de energia backup para casa durante emergências.",
-          savings: "Proprietários VE poupam €600-1,200 anualmente em custos de carregamento"
-        },
-        independence: {
-          title: "Verdadeira Liberdade Energética",
-          description: "Reduza a dependência da rede para menos de 20% com gestão energética inteligente. Tome controlo dos seus custos energéticos e impacto ambiental.",
-          savings: "Clientes alcançam 60-85% independência energética no primeiro ano"
+        commercial: {
+            backup: {
+                title: "Operações Sem Interrupções",
+                description: "A energia de backup contínua protege as suas receitas, dados e operações críticas. Mantenha o seu negócio a funcionar enquanto os concorrentes estão parados.",
+                savings: "Evite custos de paragem de mais de 15,000 € por falha"
+            },
+            demandCharges: {
+                title: "Corte nas Taxas de Procura",
+                description: "Reduza drasticamente os picos de procura mensais com a descarga de energia inteligente. Baixe a sua tarifa de eletricidade permanentemente.",
+                savings: "Reduza os custos totais de eletricidade em 25-45%"
+            },
+            loadShifting: {
+                title: "Gestão Inteligente de Cargas",
+                description: "Transfira automaticamente os processos de consumo intensivo de energia para as horas de vazio, quando a eletricidade é mais barata.",
+                savings: "Indústrias podem poupar mais de 8,000 € anualmente"
+            },
+            gridServices: {
+                title: "Gere Novas Receitas",
+                description: "Participe nos mercados de balanço da rede portuguesa. O seu sistema de armazenamento pode tornar-se um centro de lucro.",
+                savings: "Ganhe mais de 3,000 € anualmente com serviços de rede"
+            },
+            sustainability: {
+                title: "Atinja Metas ESG",
+                description: "Cumpra os objetivos corporativos Ambientais, Sociais e de Governança (ESG) enquanto reduz os custos operacionais.",
+                savings: "Melhore as classificações ESG e corte as emissões de carbono"
+            },
+            scalability: {
+                title: "Investimento à Prova de Futuro",
+                description: "O nosso design modular cresce com o seu negócio. Adicione capacidade à medida que as suas necessidades aumentam, sem substituir o seu investimento inicial.",
+                savings: "Uma solução escalável que se adapta e protege o valor"
+            }
         }
-      },
-      commercial: {
-        backup: {
-          title: "Operações Sem Interrupções",
-          description: "Energia de backup perfeita protege receita, dados e operações. O seu negócio continua a funcionar enquanto concorrentes param durante falhas.",
-          savings: "Empresas evitam €15,000-100,000+ em custos de paragem por falha major"
-        },
-        demandCharges: {
-          title: "Corte Taxas de Procura",
-          description: "Reduza dramaticamente picos mensais de procura com descarga inteligente de energia. Baixe a sua tarifa elétrica permanentemente mantendo capacidade operacional completa.",
-          savings: "Clientes comerciais reduzem custos totais de eletricidade em 25-45%"
-        },
-        loadShifting: {
-          title: "Timing Inteligente de Energia",
-          description: "Mude automaticamente processos intensivos em energia para horas fora de pico quando eletricidade é mais barata. Otimize operações sem mudar fluxos de trabalho.",
-          savings: "Fabricantes poupam €8,000-35,000 anualmente através de gestão inteligente de carga"
-        },
-        gridServices: {
-          title: "Gere Receita Adicional",
-          description: "Participe em mercados portugueses de balanceamento da rede e serviços de regulação de frequência. O seu sistema de armazenamento torna-se centro de lucro, não apenas poupança de custos.",
-          savings: "Participantes em serviços de rede ganham €3,000-12,000 anualmente em receita adicional"
-        },
-        sustainability: {
-          title: "Lidere Objetivos de Sustentabilidade",
-          description: "Alcance metas ESG corporativas reduzindo dramaticamente custos operacionais. Demonstre liderança ambiental com redução mensurável da pegada de carbono.",
-          savings: "Empresas melhoram ratings ESG e reduzem emissões de carbono em 40-60%"
-        },
-        scalability: {
-          title: "Investimento À Prova de Futuro",
-          description: "Design modular cresce com o seu negócio. Adicione capacidade incrementalmente conforme necessidades aumentam sem substituir infraestrutura existente.",
-          savings: "Solução escalável protege valor do investimento e adapta-se a necessidades energéticas em mudança"
-        }
-      }
     },
     advantages: {
-      title: "Porque a PortEV Lidera o Mercado Português",
-      subtitle: "Vantagens comprovadas que entregam resultados superiores para os nossos clientes",
-      cost: {
-        title: "Engenharia de Valor Imbatível",
-        description: "Baterias de VE de segunda vida entregam 90% do desempenho de baterias novas a 40% do custo. A nossa engenharia portuguesa e sourcing europeu elimina margens de intermediários mantendo qualidade premium."
-      },
-      ai: {
-        title: "Vantagem IA Exclusiva",
-        description: "Os nossos algoritmos proprietários de machine learning são treinados especificamente em padrões energéticos portugueses, dados meteorológicos e preços da rede para otimizar o SEU potencial específico de poupanças diariamente."
-      },
-      integration: {
-        title: "Integração Portuguesa Perfeita",
-        description: "Desenhado para casas e empresas portuguesas. Compatível com instalações solares locais, padrões elétricos e fornecedores de energia. Instalação profissional com perturbação mínima."
-      },
-      sustainability: {
-        title: "Liderança em Economia Circular",
-        description: "Cada sistema PortEV previne reciclagem prematura de baterias e reduz desperdício ambiental. Junte-se à economia circular portuguesa poupando dinheiro - a combinação perfeita."
-      },
-      support: {
-        title: "Excelência Portuguesa Local",
-        description: "Equipa de suporte portuguesa completa, rede de instalação local e garantia abrangente. Compreendemos regulamentações, incentivos e condições do mercado energético português melhor que qualquer concorrente."
-      },
-      proven: {
-        title: "Tecnologia Comprovada Europeia",
-        description: "Baseada em implementações bem-sucedidas na Alemanha, Holanda e Reino Unido. Agora otimizada para condições portuguesas com mais de 500 instalações bem-sucedidas e crescendo."
-      }
+        title: "A Vantagem PortEV",
+        subtitle: "A nossa abordagem única oferece resultados e valor superiores para os nossos clientes.",
+        cost: {
+            title: "Engenharia de Valor Superior",
+            description: "As baterias de segunda vida oferecem mais de 80% do desempenho das novas por uma fração do custo. O nosso fornecimento direto e engenharia local eliminam as margens dos intermediários."
+        },
+        ai: {
+            title: "IA Mais Inteligente, Maiores Poupanças",
+            description: "A nossa IA proprietária é treinada especificamente com dados da rede e meteorologia portuguesas para maximizar as suas poupanças. Uma vantagem que nenhum concorrente pode oferecer."
+        },
+        integration: {
+            title: "Integração Local Perfeita",
+            description: "Concebido para casas e empresas portuguesas. Totalmente compatível com as normas elétricas e fornecedores de energia locais, instalado por profissionais certificados."
+        },
+        sustainability: {
+            title: "Economia Circular em Ação",
+            description: "Cada sistema PortEV dá uma segunda vida a uma bateria de alto desempenho, contribuindo diretamente para a economia circular de Portugal e reduzindo o desperdício."
+        },
+        support: {
+            title: "Suporte Dedicado em Portugal",
+            description: "Uma equipa de suporte completa sediada em Portugal. Compreendemos a regulamentação, os incentivos e o mercado de energia local melhor do que ninguém."
+        },
+        proven: {
+            title: "Tecnologia Comprovada na Europa",
+            description: "A arquitetura do nosso sistema baseia-se em projetos de grande escala bem-sucedidos na Alemanha e no Reino Unido, agora otimizada para o mercado português."
+        }
     },
     pricing: {
-      title: "Investimento Inteligente, Retornos Garantidos",
-      subtitle: "A PortEV oferece o melhor valor em armazenamento energético português - com resultados que falam por si",
-      ourSolution: "Solução Melhor Valor",
-      comparison: {
-        portev: {
-          title: "Sistema Completo PortEV",
-          price: "€2,500 - €3,500",
-          capacity: "10-20 kWh",
-          features: [
-            "✅ Baterias premium VE segunda vida",
-            "✅ BMS grau militar incluído",
-            "✅ Motor otimização IA exclusivo",
-            "✅ Instalação profissional & configuração",
-            "✅ Garantia abrangente 10 anos",
-            "✅ Suporte cliente português 24/7",
-            "✅ App móvel com monitorização tempo real",
-            "✅ ROI garantido em 3-4 anos"
-          ]
+        title: "Um Investimento Inteligente no Seu Futuro",
+        subtitle: "A PortEV oferece o melhor valor em armazenamento de energia em Portugal, concebido para um rápido retorno.",
+        ourSolution: "Melhor Valor",
+        comparison: {
+            portev: {
+                title: "Sistema Completo PortEV",
+                price: "A partir de 2.999 €",
+                capacity: "Modelos de 10-20 kWh",
+                check: [
+                    "Baterias Premium de Segunda Vida",
+                    "Motor de Otimização IA Avançado",
+                    "Instalação Profissional Incluída",
+                    "Garantia Abrangente de 10 Anos",
+                    "Suporte 24/7 em Portugal",
+                    "App de Monitorização em Tempo Real"
+                ],
+                cross: []
+            },
+            tesla: {
+                title: "Tesla Powerwall",
+                price: "12.000 €+",
+                capacity: "13.5 kWh",
+                check: ["Bateria Nova"],
+                cross: [
+                    "Custo Inicial 4x Superior",
+                    "Sem Otimização IA Avançada",
+                    "Custos de Instalação Extra",
+                    "Período de Retorno Longo (8-10 anos)"
+                ]
+            },
+            sonnen: {
+                title: "Baterias Sonnen",
+                price: "25.000 €+",
+                capacity: "10-20 kWh",
+                check: ["Bateria Nova"],
+                cross: [
+                    "Custo Extremamente Elevado",
+                    "Instalação Complexa",
+                    "Suporte Local Limitado",
+                    "Período de Retorno Mais Longo (12+ anos)"
+                ]
+            },
+            diesel: {
+                title: "Gerador a Diesel",
+                price: "4.000 €+",
+                capacity: "Apenas Backup",
+                check: ["Fonte de Energia de Backup"],
+                cross: [
+                    "Sem Poupanças de Energia Diárias",
+                    "Custos Elevados de Combustível e Manutenção",
+                    "Poluição Sonora e do Ar",
+                    "Sem Integração com a Rede Inteligente"
+                ]
+            }
         },
-        tesla: {
-          title: "Tesla Powerwall 3",
-          price: "€12,000 - €15,000",
-          capacity: "13.5 kWh",
-          features: [
-            "⚠️ Custo inicial 4x superior",
-            "⚠️ Monitorização básica apenas",
-            "⚠️ Suporte local limitado",
-            "⚠️ Custos instalação extra",
-            "⚠️ Período retorno 8-10 anos"
-          ]
+        savings: {
+            title: "Resultados Típicos dos Clientes",
+            description: "Poupanças e ganhos reais alcançados pelos clientes da PortEV em Portugal:",
+            residential: [
+                "800-2,400 € poupados anualmente nas faturas de eletricidade",
+                "600-1,200 € poupados nos custos de carregamento de VE",
+                "Melhoria de 40-60% no ROI dos painéis solares"
+            ],
+            commercial: [
+                "Redução total de 25-45% nas despesas de eletricidade",
+                "Mais de 15,000 € evitados em custos de paragem por falha",
+                "Mais de 3,000 € ganhos anualmente com serviços de rede"
+            ]
         },
-        sonnen: {
-          title: "Sonnen ecoLinx",
-          price: "€25,000 - €35,000",
-          capacity: "20 kWh",
-          features: [
-            "❌ Custo extremamente alto",
-            "❌ Instalação complexa necessária",
-            "❌ Suporte português limitado",
-            "❌ Período retorno 12-15 anos",
-            "❌ Contratos manutenção caros"
-          ]
-        },
-        diesel: {
-          title: "Gerador Diesel",
-          price: "€4,000 - €10,000",
-          capacity: "Variável",
-          features: [
-            "❌ Apenas energia backup - sem poupanças",
-            "❌ Altos custos combustível contínuos",
-            "❌ Manutenção regular necessária",
-            "❌ Poluição sonora e do ar",
-            "❌ Sem integração rede inteligente"
-          ]
+        payback: {
+            title: "Concebido para um Rápido ROI",
+            residential: "Projetado: 2.5-4 anos",
+            commercial: "Projetado: 1.5-3 anos",
+            description: "Os nossos sistemas são concebidos para se pagarem rapidamente através de poupanças de energia comprovadas, segurança de backup e potenciais receitas da rede."
         }
-      },
-      savings: {
-        title: "Resultados Reais de Clientes",
-        description: "Poupanças reais alcançadas por clientes PortEV em Portugal:",
-        residential: [
-          "€800-2,400 poupados anualmente nas contas eletricidade",
-          "€300-800 evitados por falha em comida estragada e perdas",
-          "€600-1,200 poupados em custos carregamento VE anualmente",
-          "40-60% melhoria no ROI de painéis solares"
-        ],
-        commercial: [
-          "€8,000-35,000 poupados anualmente em custos energia",
-          "€15,000-100,000+ evitados em custos paragem por falha",
-          "€3,000-12,000 ganhos de serviços rede anualmente",
-          "25-45% redução total em despesas eletricidade"
-        ]
-      },
-      payback: {
-        title: "Retorno Garantido do Investimento",
-        residential: "2.5-4 anos retorno típico",
-        commercial: "1.5-3 anos retorno típico",
-        description: "Os nossos sistemas pagam-se através de poupanças energéticas comprovadas, valor energia backup e potencial receita rede. Garantimos ROI positivo ou dinheiro de volta."
-      }
     },
     cta: {
-      title: "Junte-se à Revolução Energética Portuguesa Hoje",
-      subtitle: "Mais de 500 famílias e empresas portuguesas já mudaram para PortEV",
-      description: "Não espere que os preços da eletricidade subam mais. Obtenha a sua avaliação energética gratuita e orçamento PortEV personalizado hoje. Os nossos especialistas energéticos portugueses desenharão a solução perfeita para as suas necessidades e orçamento específicos.",
-      button: "Obtenha Sua Avaliação Gratuita",
-      instagram: "Siga @PortEV_Portugal"
+        title: "Pronto para Controlar os Seus Custos de Energia?",
+        subtitle: "Junte-se a mais de 500 famílias e empresas portuguesas que já mudaram para a PortEV.",
+        description: "Obtenha uma avaliação de energia gratuita e sem compromisso e um orçamento personalizado dos nossos especialistas. Descubra o quanto pode poupar e declare a sua independência energética.",
+        button: "Pedir a Minha Avaliação Gratuita",
+        instagram: "Siga a nossa jornada @PortEV_Portugal"
     },
     footer: {
-      slogan: "Liderando a transição portuguesa para soluções inteligentes e sustentáveis de armazenamento energético",
-      rights: "© 2024 PortEV Portugal. Todos os direitos reservados.",
-      madein: "Desenvolvido em Portugal 🇵🇹 com Excelência Europeia"
+        slogan: "Liderando a transição de Portugal para uma energia inteligente e sustentável.",
+        rights: `© ${new Date().getFullYear()} PortEV Portugal. Todos os direitos reservados.`,
+        madein: "Desenvolvido em Portugal 🇵🇹"
     }
   }
 };
