@@ -46,12 +46,12 @@ export const translations = {
     product: {
       title: "PortEV: Your Complete Energy Solution",
       subtitle: "Europe's most advanced second-life battery system, engineered in Portugal for local conditions.",
-      description: "PortEV transforms premium EV batteries from brands like Tesla and BMW into intelligent energy ecosystems. Our solution combines cutting-edge AI with proven European technology, delivering unmatched performance at a revolutionary price. Every system includes premium components, expert installation, and comprehensive local support.",
+      description: "PortEV transforms premium EV batteries into intelligent energy ecosystems. Our solution combines cutting-edge AI with proven European technology, delivering unmatched performance at a revolutionary price. Every system includes premium components, expert installation, and comprehensive local support.",
       components: {
         title: "Inside Every PortEV System",
         battery: {
           title: "Premium Second-Life EV Batteries",
-          description: "Select batteries maintaining over 80% capacity. Proven technology at a fraction of the cost of new alternatives."
+          description: "Sourced from top-tier electric vehicles, every module undergoes rigorous analysis by our AI testing model to measure its fitness, ensuring only the most durable modules with the lowest degradation are used."
         },
         bms: {
           title: "Advanced Battery Management (BMS)",
@@ -59,12 +59,9 @@ export const translations = {
         },
         ai: {
           title: "Proprietary AI Optimization",
-          description: "Our exclusive algorithms learn your energy use, predict grid pricing, and automatically maximize your savings every day."
+          description: "Our exclusive operational algorithms learn your consumption patterns and integrate directly with Day-Ahead Market data to create the perfect charge/discharge strategy, automatically maximizing your savings."
         },
-        inverter: {
-          title: "Ultra-Efficient German Inverters",
-          description: "Premium Fronius & SMA inverters with 97%+ efficiency, powering Germany's renewable energy leadership."
-        },
+        
         monitoring: {
           title: "Intelligent Control Dashboard",
           description: "A user-friendly app for real-time monitoring of savings, energy flow, and system performance, with full Portuguese support."
@@ -156,7 +153,7 @@ export const translations = {
       },
       ai: {
         title: "Smarter AI, Bigger Savings",
-        description: "Our proprietary AI is trained specifically on Portuguese grid data and weather patterns to maximize your savings. It's an advantage no competitor can offer."
+        description: "Our AI advantage is twofold: First, our testing model selects only the most durable second-life modules. Then, our operational AI uses Day-Ahead Market prices to maximize your daily savings."
       },
       integration: {
         title: "Seamless Local Integration",
@@ -181,15 +178,15 @@ export const translations = {
       ourSolution: "Best Value",
       comparison: {
         portev: {
-          title: "PortEV Complete System",
-          price: "Starting from €2,999",
-          capacity: "10-20 kWh Models",
+          title: "PortEV System",
+          price: "Starting from €3,000",
+          capacity: "50+ kWh Models",
           check: [
-            "Premium Second-Life Batteries",
+            "AI-Certified Second-Life Batteries",
             "Advanced AI Optimization Engine",
             "Professional Installation Included",
             "Comprehensive 10-Year Warranty",
-            "24/7 Portuguese Support",
+            "24/7 Support",
             "Real-Time Monitoring App"
           ],
           cross: []
@@ -198,7 +195,7 @@ export const translations = {
           title: "Tesla Powerwall",
           price: "€12,000+",
           capacity: "13.5 kWh",
-          check: ["New Battery"],
+  
           cross: [
             "4x Higher Upfront Cost",
             "No Advanced AI Optimization",
@@ -210,7 +207,7 @@ export const translations = {
           title: "Sonnen Batteries",
           price: "€25,000+",
           capacity: "10-20 kWh",
-          check: ["New Battery"],
+          
           cross: [
             "Extremely High Cost",
             "Complex Installation",
@@ -235,14 +232,12 @@ export const translations = {
         title: "Typical Customer Results",
         description: "Actual savings and earnings achieved by PortEV customers in Portugal:",
         residential: [
-          "€800-2,400 saved annually on electricity bills",
-          "€600-1,200 saved on EV charging costs",
+          "Up to 50% saved annually on electricity bills",
           "40-60% improvement in solar panel ROI"
         ],
         commercial: [
-          "25-45% total reduction in electricity expenses",
-          "€15,000+ avoided in downtime costs per outage",
-          "€3,000+ earned from grid services annually"
+          "25-50% total reduction in electricity expenses",
+          
         ]
       },
       payback: {
@@ -310,12 +305,12 @@ export const translations = {
     product: {
         title: "PortEV: A Sua Solução Completa de Energia",
         subtitle: "O sistema de baterias de segunda vida mais avançado da Europa, desenvolvido em Portugal para as condições locais.",
-        description: "A PortEV transforma baterias premium de VEs de marcas como Tesla e BMW em ecossistemas de energia inteligentes. A nossa solução combina IA de ponta com tecnologia europeia comprovada, oferecendo um desempenho incomparável a um preço revolucionário. Cada sistema inclui componentes premium, instalação por especialistas e um suporte local abrangente.",
+        description: "A PortEV transforma baterias premium de VEs em ecossistemas de energia inteligentes. A nossa solução combina IA de ponta com tecnologia europeia comprovada, oferecendo um desempenho incomparável a um preço revolucionário. Cada sistema inclui componentes premium, instalação por especialistas e um suporte local abrangente.",
         components: {
             title: "Dentro de Cada Sistema PortEV",
             battery: {
                 title: "Baterias Premium de Segunda Vida de VE",
-                description: "Baterias selecionadas que mantêm mais de 80% da sua capacidade. Tecnologia comprovada por uma fração do custo de alternativas novas."
+                description: "Provenientes de veículos elétricos de topo, cada módulo passa por uma análise rigorosa do nosso modelo de IA de teste para medir a sua aptidão, garantindo que apenas os módulos mais duráveis e com menor degradação são utilizados."
             },
             bms: {
                 title: "Gestão Avançada de Bateria (BMS)",
@@ -323,7 +318,7 @@ export const translations = {
             },
             ai: {
                 title: "Otimização por IA Proprietária",
-                description: "Os nossos algoritmos exclusivos aprendem o seu consumo de energia, preveem os preços da rede e maximizam automaticamente as suas poupanças todos os dias."
+                description: "Os nossos algoritmos operacionais exclusivos aprendem os seus padrões de consumo e integram-se diretamente com os dados do Mercado Diário para criar a estratégia perfeita de carga/descarga, maximizando automaticamente as suas poupanças."
             },
             inverter: {
                 title: "Inversores Alemães de Alta Eficiência",
@@ -420,7 +415,7 @@ export const translations = {
         },
         ai: {
             title: "IA Mais Inteligente, Maiores Poupanças",
-            description: "A nossa IA proprietária é treinada especificamente com dados da rede e meteorologia portuguesas para maximizar as suas poupanças. Uma vantagem que nenhum concorrente pode oferecer."
+            description: "A nossa vantagem de IA é dupla: primeiro, o nosso modelo de teste seleciona apenas os módulos de segunda vida mais duráveis. De seguida, a nossa IA operacional usa os preços do Mercado Diário para maximizar as suas poupanças."
         },
         integration: {
             title: "Integração Local Perfeita",
@@ -445,11 +440,11 @@ export const translations = {
         ourSolution: "Melhor Valor",
         comparison: {
             portev: {
-                title: "Sistema Completo PortEV",
-                price: "A partir de 2.999 €",
-                capacity: "Modelos de 10-20 kWh",
+                title: "Sistema PortEV",
+                price: "A partir de 3.000 €",
+                capacity: "Modelos de 50+ kWh",
                 check: [
-                    "Baterias Premium de Segunda Vida",
+                    "Baterias de Segunda Vida Certificadas por IA",
                     "Motor de Otimização IA Avançado",
                     "Instalação Profissional Incluída",
                     "Garantia Abrangente de 10 Anos",
@@ -462,7 +457,7 @@ export const translations = {
                 title: "Tesla Powerwall",
                 price: "12.000 €+",
                 capacity: "13.5 kWh",
-                check: ["Bateria Nova"],
+              
                 cross: [
                     "Custo Inicial 4x Superior",
                     "Sem Otimização IA Avançada",
@@ -474,7 +469,7 @@ export const translations = {
                 title: "Baterias Sonnen",
                 price: "25.000 €+",
                 capacity: "10-20 kWh",
-                check: ["Bateria Nova"],
+                
                 cross: [
                     "Custo Extremamente Elevado",
                     "Instalação Complexa",
