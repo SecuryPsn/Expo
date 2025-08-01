@@ -248,7 +248,7 @@ export const translations = {
       payback: {
         title: "Designed for Rapid ROI",
         residential: "Projected: 2.5-4 years",
-        commercial: "Projected: 1.5-3 years",
+        commercial: "Projected: 2-4 years",
         description: "Our systems are engineered to pay for themselves quickly through proven energy savings, backup security, and potential grid revenue."
       }
     },
@@ -512,7 +512,7 @@ export const translations = {
         payback: {
             title: "Concebido para um Rápido ROI",
             residential: "Projetado: 2.5-4 anos",
-            commercial: "Projetado: 1.5-3 anos",
+            commercial: "Projetado: 2-4 anos",
             description: "Os nossos sistemas são concebidos para se pagarem rapidamente através de poupanças de energia comprovadas, segurança de backup e potenciais receitas da rede."
         }
     },
