@@ -284,6 +284,200 @@
   .splitLayout {
     grid-template-columns: 1fr 1fr; /* Two columns on tablets and desktops */
   }
+}/* Add these mobile-specific button styles to your CSS */
+
+/* --- Mobile Button Improvements --- */
+
+/* Primary Button Mobile Styles */
+.buttonPrimary {
+  background: var(--success-gradient);
+  color: white;
+  border: none;
+  padding: 1rem 3rem;
+  border-radius: 40px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.3);
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  /* Mobile-specific improvements */
+  min-height: 44px; /* Apple's recommended minimum touch target */
+  width: 80%; /* Full width on mobile */
+  max-width: 80px; /* Prevent buttons from being too wide */
+  margin: 0.5rem auto;
+}
+
+/* Language Toggle Mobile Styles */
+.languageToggle {
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
+  /* Mobile improvements */
+  min-height: 44px;
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Toggle Button Mobile Styles */
+.toggleButton {
+  padding: 0.8rem 2rem;
+  border-radius: 50px;
+  border: 1px solid var(--primary-blue);
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: var(--background-white);
+  color: var(--primary-blue);
+  /* Mobile improvements */
+  min-height: 44px;
+  flex: 1; /* Allow buttons to share space evenly */
+  min-width: 120px; /* Minimum readable width */
+  text-align: center;
+}
+
+/* Feature Toggle Container Mobile Styles */
+.featureToggleContainer {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem; /* Reduced gap on mobile */
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+  padding: 0 1rem; /* Add padding to prevent edge touching */
+}
+
+/* Mobile-specific media queries */
+@media (max-width: 767px) {
+  
+  /* Primary Button Mobile Overrides */
+  .buttonPrimary {
+    padding: 1.2rem 2rem;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 80px;
+    margin: 1rem auto;
+  }
+  
+  /* Language Toggle Mobile */
+  .languageToggle {
+    padding: 0.7rem 1.2rem;
+    font-size: 0.85rem;
+  }
+  
+  /* Toggle Buttons Mobile Stack */
+  .featureToggleContainer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+  }
+  
+  .toggleButton {
+    width: 100%;
+    max-width: 250px;
+    padding: 1rem 1.5rem;
+    font-size: 0.95rem;
+  }
+  
+  /* Navigation Controls Mobile */
+  .navControls {
+    gap: 0.5rem;
+  }
+  
+  /* CTA Section Mobile */
+  .ctaSection .buttonPrimary {
+    margin-top: 2rem;
+  }
+}
+
+/* Tablet-specific adjustments */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+  .buttonPrimary {
+    width: auto;
+    min-width: 200px;
+  }
+  
+  .featureToggleContainer {
+    gap: 1rem;
+  }
+  
+  .toggleButton {
+    flex: none;
+    min-width: 140px;
+  }
+}
+
+/* Desktop styles (maintain current behavior) */
+@media (min-width: 1024px) {
+  
+  .buttonPrimary {
+    width: auto;
+    margin: 0.5rem 0;
+  }
+  
+  .featureToggleContainer {
+    gap: 1rem;
+  }
+  
+  .toggleButton {
+    flex: none;
+  }
+}
+
+/* --- Additional Touch-Friendly Improvements --- */
+
+/* Ensure all clickable elements have proper touch targets */
+.navLink,
+.mobileNavLink {
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 0.75rem 1rem;
+}
+
+/* Mobile menu button improvements */
+.mobileMenuButton {
+  min-height: 44px;
+  min-width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: var(--text-dark);
+  border-radius: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.mobileMenuButton:hover,
+.mobileMenuButton:focus {
+  background-color: rgba(37, 99, 235, 0.1);
+}
+
+/* Pricing card buttons (if you have any) */
+.pricingCard .buttonPrimary {
+  margin-top: auto;
+  margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .pricingCard .buttonPrimary {
+    width: 80%;
+    margin-top: 1.5rem;
+  }
 }
 
 .heroContent {
