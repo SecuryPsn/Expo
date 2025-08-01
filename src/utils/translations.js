@@ -62,7 +62,7 @@ export const translations = {
           description: "Our exclusive operational algorithms learn your consumption patterns and integrate directly with Day-Ahead Market data to create the perfect charge/discharge strategy, automatically maximizing your savings."
         },
         inverter: {
-          title: "Ultra-Efficient German Inverters",
+          title: "Efficient Inverters",
           description: "Premium inverters from leading European brands with 97%+ efficiency, ensuring minimal energy loss."
         },
         monitoring: {
@@ -326,7 +326,7 @@ export const translations = {
                 description: "Os nossos algoritmos operacionais exclusivos aprendem os seus padrões de consumo e integram-se diretamente com os dados do Mercado Diário para criar a estratégia perfeita de carga/descarga, maximizando automaticamente as suas poupanças."
             },
             inverter: {
-                title: "Inversores Alemães de Alta Eficiência",
+                title: "Inversores de Alta Eficiência",
                 description: "Inversores premium de marcas europeias líderes com mais de 97% de eficiência, garantindo uma perda mínima de energia."
             },
             monitoring: {
