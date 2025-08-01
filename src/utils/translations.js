@@ -61,7 +61,10 @@ export const translations = {
           title: "Proprietary AI Optimization",
           description: "Our exclusive operational algorithms learn your consumption patterns and integrate directly with Day-Ahead Market data to create the perfect charge/discharge strategy, automatically maximizing your savings."
         },
-        
+        inverter: {
+          title: "Ultra-Efficient German Inverters",
+          description: "Premium inverters from leading European brands with 97%+ efficiency, ensuring minimal energy loss."
+        },
         monitoring: {
           title: "Intelligent Control Dashboard",
           description: "A user-friendly app for real-time monitoring of savings, energy flow, and system performance, with full Portuguese support."
@@ -83,17 +86,17 @@ export const translations = {
         backup: {
           title: "Uninterruptible Power Supply",
           description: "Instant backup power keeps your family safe and comfortable during outages. No noise, no fuel, no fuss—just reliable electricity.",
-          savings: "Avoid €300+ in losses per outage"
+          savings: "Avoid costly outage-related losses"
         },
         arbitrage: {
           title: "Automated Bill Reduction",
           description: "The system automatically charges with cheap overnight electricity and powers your home during expensive peak hours. It works while you sleep.",
-          savings: "Typical savings of €800-2,400 annually"
+          savings: "Up to 50% reduction in energy bills"
         },
         peakShaving: {
           title: "Eliminate Peak Charges",
           description: "Lower your maximum power draw from the grid, which can help reduce your fixed tariff category and monthly fees.",
-          savings: "Reduce peak demand costs by €200-500 annually"
+          savings: "Significant reduction in peak fees"
         },
         solarOptimization: {
           title: "Maximize Your Solar Investment",
@@ -103,7 +106,7 @@ export const translations = {
         evCharging: {
           title: "Smarter EV Charging",
           description: "Charge your electric vehicle with stored off-peak or solar energy, effectively making your daily commute free.",
-          savings: "Save up to €1,200 annually on charging"
+          savings: "Drastically lower EV charging costs"
         },
         independence: {
           title: "True Energy Freedom",
@@ -115,22 +118,22 @@ export const translations = {
         backup: {
           title: "Zero-Downtime Operations",
           description: "Seamless backup power protects your revenue, data, and critical operations. Keep your business running while competitors are down.",
-          savings: "Avoid €15,000+ in downtime costs per outage"
+          savings: "Protect against costly business downtime"
         },
         demandCharges: {
           title: "Slash Demand Charges",
           description: "Dramatically reduce monthly demand peaks with smart energy discharge. Lower your electricity tariff permanently.",
-          savings: "Reduce total electricity costs by 25-45%"
+          savings: "Reduce total electricity costs by 25-50%"
         },
         loadShifting: {
           title: "Intelligent Load Shifting",
           description: "Automatically shift energy-intensive processes to off-peak hours when electricity is cheapest, without changing your workflow.",
-          savings: "Manufacturers can save €8,000+ annually"
+          savings: "Substantial savings for manufacturers"
         },
         gridServices: {
           title: "Generate New Revenue",
           description: "Participate in Portuguese grid balancing markets. Your storage system can become a profit center, not just a cost saver.",
-          savings: "Earn €3,000+ annually from grid services"
+          savings: "Unlock new revenue streams"
         },
         sustainability: {
           title: "Achieve ESG Goals",
@@ -165,7 +168,7 @@ export const translations = {
       },
       support: {
         title: "Dedicated Portuguese Support",
-        description: "A full support team based in Portugal. We understand the local regulations, incentives, and energy market better than anyone."
+        description: "A full support team based in Portugal. We understand the local regulations, incentives, and a energia market better than anyone."
       },
       proven: {
         title: "European-Proven Technology",
@@ -195,7 +198,7 @@ export const translations = {
           title: "Tesla Powerwall",
           price: "€12,000+",
           capacity: "13.5 kWh",
-  
+          check: ["New Battery"],
           cross: [
             "4x Higher Upfront Cost",
             "No Advanced AI Optimization",
@@ -207,7 +210,7 @@ export const translations = {
           title: "Sonnen Batteries",
           price: "€25,000+",
           capacity: "10-20 kWh",
-          
+          check: ["New Battery"],
           cross: [
             "Extremely High Cost",
             "Complex Installation",
@@ -233,11 +236,13 @@ export const translations = {
         description: "Actual savings and earnings achieved by PortEV customers in Portugal:",
         residential: [
           "Up to 50% saved annually on electricity bills",
+          "Drastically lower home EV charging costs",
           "40-60% improvement in solar panel ROI"
         ],
         commercial: [
           "25-50% total reduction in electricity expenses",
-          
+          "Mitigate financial losses from power outages",
+          "Generate new revenue from grid services"
         ]
       },
       payback: {
@@ -322,7 +327,7 @@ export const translations = {
             },
             inverter: {
                 title: "Inversores Alemães de Alta Eficiência",
-                description: "Inversores premium da Fronius & SMA com mais de 97% de eficiência, que potenciam a liderança da Alemanha em energias renováveis."
+                description: "Inversores premium de marcas europeias líderes com mais de 97% de eficiência, garantindo uma perda mínima de energia."
             },
             monitoring: {
                 title: "Painel de Controlo Inteligente",
@@ -345,17 +350,17 @@ export const translations = {
             backup: {
                 title: "Fornecimento de Energia Ininterrupto",
                 description: "Energia de backup instantânea mantém a sua família segura e confortável durante as falhas. Sem ruído, sem combustível, sem complicações — apenas eletricidade fiável.",
-                savings: "Evite perdas de mais de 300 € por falha"
+                savings: "Evite perdas dispendiosas por falhas de energia"
             },
             arbitrage: {
                 title: "Redução Automática da Fatura",
                 description: "O sistema carrega automaticamente com eletricidade barata durante a noite e alimenta a sua casa durante as horas de pico, mais caras.",
-                savings: "Poupança típica de 800-2,400 € anualmente"
+                savings: "Redução de até 50% nas faturas de energia"
             },
             peakShaving: {
                 title: "Elimine as Taxas de Ponta",
                 description: "Reduza o seu consumo máximo da rede, o que pode ajudar a diminuir a sua categoria tarifária fixa e as taxas mensais.",
-                savings: "Reduza os custos de procura de ponta em 200-500 € anualmente"
+                savings: "Redução significativa das taxas de ponta"
             },
             solarOptimization: {
                 title: "Maximize o Seu Investimento Solar",
@@ -365,7 +370,7 @@ export const translations = {
             evCharging: {
                 title: "Carregamento de VE Mais Inteligente",
                 description: "Carregue o seu veículo elétrico com energia armazenada fora do pico ou solar, tornando as suas deslocações diárias efetivamente gratuitas.",
-                savings: "Poupe até 1,200 € anualmente no carregamento"
+                savings: "Custos de carregamento de VE drasticamente mais baixos"
             },
             independence: {
                 title: "Verdadeira Liberdade Energética",
@@ -377,22 +382,22 @@ export const translations = {
             backup: {
                 title: "Operações Sem Interrupções",
                 description: "A energia de backup contínua protege as suas receitas, dados e operações críticas. Mantenha o seu negócio a funcionar enquanto os concorrentes estão parados.",
-                savings: "Evite custos de paragem de mais de 15,000 € por falha"
+                savings: "Proteja-se contra paragens de negócio dispendiosas"
             },
             demandCharges: {
                 title: "Corte nas Taxas de Procura",
                 description: "Reduza drasticamente os picos de procura mensais com a descarga de energia inteligente. Baixe a sua tarifa de eletricidade permanentemente.",
-                savings: "Reduza os custos totais de eletricidade em 25-45%"
+                savings: "Reduza os custos totais de eletricidade em 25-50%"
             },
             loadShifting: {
                 title: "Gestão Inteligente de Cargas",
                 description: "Transfira automaticamente os processos de consumo intensivo de energia para as horas de vazio, quando a eletricidade é mais barata.",
-                savings: "Indústrias podem poupar mais de 8,000 € anualmente"
+                savings: "Poupanças substanciais para a indústria"
             },
             gridServices: {
                 title: "Gere Novas Receitas",
                 description: "Participe nos mercados de balanço da rede portuguesa. O seu sistema de armazenamento pode tornar-se um centro de lucro.",
-                savings: "Ganhe mais de 3,000 € anualmente com serviços de rede"
+                savings: "Desbloqueie novas fontes de receita"
             },
             sustainability: {
                 title: "Atinja Metas ESG",
@@ -457,7 +462,7 @@ export const translations = {
                 title: "Tesla Powerwall",
                 price: "12.000 €+",
                 capacity: "13.5 kWh",
-              
+                check: ["Bateria Nova"],
                 cross: [
                     "Custo Inicial 4x Superior",
                     "Sem Otimização IA Avançada",
@@ -469,7 +474,7 @@ export const translations = {
                 title: "Baterias Sonnen",
                 price: "25.000 €+",
                 capacity: "10-20 kWh",
-                
+                check: ["Bateria Nova"],
                 cross: [
                     "Custo Extremamente Elevado",
                     "Instalação Complexa",
@@ -494,14 +499,14 @@ export const translations = {
             title: "Resultados Típicos dos Clientes",
             description: "Poupanças e ganhos reais alcançados pelos clientes da PortEV em Portugal:",
             residential: [
-                "800-2,400 € poupados anualmente nas faturas de eletricidade",
-                "600-1,200 € poupados nos custos de carregamento de VE",
+                "Até 50% de poupança anual nas faturas de eletricidade",
+                "Custos de carregamento de VE em casa drasticamente mais baixos",
                 "Melhoria de 40-60% no ROI dos painéis solares"
             ],
             commercial: [
-                "Redução total de 25-45% nas despesas de eletricidade",
-                "Mais de 15,000 € evitados em custos de paragem por falha",
-                "Mais de 3,000 € ganhos anualmente com serviços de rede"
+                "Redução total de 25-50% nas despesas de eletricidade",
+                "Mitigue perdas financeiras por falhas de energia",
+                "Gere novas receitas com serviços de rede"
             ]
         },
         payback: {
